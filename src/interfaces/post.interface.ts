@@ -30,8 +30,8 @@ export interface singlePost {
         },
     },
     tags:{
-        nodes: {
-            name: string,
-        },
+        nodes: [
+            { name: string },
+        ],
     },
 }

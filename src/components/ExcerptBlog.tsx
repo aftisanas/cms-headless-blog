@@ -14,9 +14,9 @@ type Post = {
         }
     }
     tags: {
-        nodes: {
-            name: string
-        }
+        nodes: [
+            {name: string}
+        ]
     }
     author: {
         node: {
