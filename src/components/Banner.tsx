@@ -3,7 +3,7 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <div id="sticky-banner" tabIndex={-1} className="fixed top-0 start-0 z-50 flex justify-between w-full p-2 border-b border-gray-200 bg-gray-50">
+        <div id="sticky-banner" tabIndex={-1} className="fixed top-0 start-0 z-50 flex justify-between w-full p-2 border-b border-gray-200 bg-gray-50 text-center">
             <div className="flex items-center mx-auto">
                 <p className="flex items-center text-sm font-normal text-gray-500">
                     <span>This is a demo blog using WordPress and Next.js. <Link href="https://github.com/aftisanas/cms-headless-blog" className="inline font-medium text-neutral-600 underline dark:text-neutral-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Check my github repository</Link></span>

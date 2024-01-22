@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="min-h-screen flex-col items-center justify-between p-24">
+      <div className="min-h-screen flex-col items-center justify-between p-5 md:p-18 lg:p-24">
         <Banner />
         <Header />
         <Hero />
